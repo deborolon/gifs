@@ -46,4 +46,4 @@ En este proyecto se utilizaron los siguientes recursos y tecnologías:
 
   
 
-Link a **Gifos**  [aquí](https://git-scm.com/)!
+Link a **Gifos**  [aquí](https://gif0s.000webhostapp.com/)!
