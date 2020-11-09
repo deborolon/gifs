@@ -1,4 +1,4 @@
-#Proyecto GIFOS :space_invader:
+#Proyecto GIFOS# :space_invader:
 
 El desafío del proyecto era desarrollar un catálogo de gifs que contenga una funcionalidad de búsqueda, la interacción con una API externa y la captura de video.
 El diseño del sitio está realizado sin frameworks, siguiendo un modelo de referencia.
@@ -17,11 +17,11 @@ En este proyecto se utilizaron los siguientes recursos y tecnologías:
 *Más ayudita: [Mozilla Developer](https://developer.mozilla.org/en-US/) y [W3schools](https://www.w3schools.com/)
 *Control de versiones: [GIT](https://git-scm.com/)
 
-##Specs
+##Specs##
 *Light*
-![Light Theme](https://drive.google.com/file/d/1ZY9G2X3LBNCGl6crcVoHnA_zDogQ6nfz/view?usp=sharing)
+![Light Theme](specs\Spec Export - Sketch Measure1.png)
 
 *Dark*
-![Dark Theme](https://drive.google.com/file/d/1jAUuK7sWYqmiK4NxISDz_rOhDLaTiX3g/view?usp=sharing)
+![Dark Theme](specs\Spec Export - Sketch Measure2.png)
 
-###Link a **Gifos** [aquí](https://git-scm.com/)
+###Link a **Gifos**### [aquí](https://git-scm.com/)
