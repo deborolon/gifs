@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style/create-gif.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="/images/gifOF_logo.png"/>
+    <title>Crear Gif</title>
+  </head>
+  <body>
+    <div class="sailor-day" id="change-theme">
+      <header>
+        <div class="top">
+          <p class="counter">
+            ¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.//////
+            Número de visitas:
+            <span class="counter-visitor" id="counter-visitor"></span>
+          </p>
+        </div>
+
+        <div class="container">
+          <a class="back-index" href="/index.html">
+            <img
+              src="/images/arrow.svg"
+              class="arrow-index"
+              id="arrow-index"
+              alt="Arrow"
+            />
+            <img
+              src="/images/gifOF_logo.png"
+              class="logo-gifos"
+              id="logo-gifos"
+              alt="Logo Gifos"
+            />
+          </a>
+
+          <div class="btn-group">
+            <div class="make-gif">
+              <a href="/pages/create-gif.html">Crear Guifos</a>
+            </div>
+
+            <div class="dropdown" id="dropdown">
+              <ul class="dropdown-list" id="dropdown-list">
+                <li class="sd" id="sd"><span>S</span>ailor Day</li>
+                <li class="sn" id="sn"><span>S</span>ailor Night</li>
+              </ul>
+
+              <div class="btn-theme">Elegir tema</div>
+              <div class="square">
+                <img
+                  class="arrow"
+                  id="arrow"
+                  src="/images/dropdown.svg"
+                  alt="Dropdown"
+                />
+              </div>
+            </div>
+
+            <a href="#" class="mycollection" id="mycollection"
+              ><p><span>M</span>is Guifos</p></a
+            >
+          </div>
+        </div>
+      </header>
+
+      <div class="title" id="title"><p>Mis Gifos</p></div>
+      <img src="#" class="linkGif" id="linkGif" alt="" >
+      <section class="collection" id="collection"></section>  
+            
+      <script src="/script/mis-guifos.js"></script>
+    </div>
+  </body>
+</html>
