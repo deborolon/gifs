@@ -19,9 +19,9 @@ En este proyecto se utilizaron los siguientes recursos y tecnologías:
 
 ##Specs
 *Light*
-![Light Theme](Spec1.png)
+![Light Theme](SpecDay.png)
 
 *Dark*
-![Dark Theme](Spec2.png)
+![Dark Theme](SpecNight.png)
 
 ###Link a **Gifos** [aquí](https://git-scm.com/)
