@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style/default.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="images/gifOF_logo.png"/>
+    <title>gifOS</title>
+  </head>
+  <body>
+    <div class="sailor-day" id="change-theme">
+      <header>
+        <div class="top">
+          <p class="counter">
+            ¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.//////
+            Número de visitas:
+            <span class="counter-visitor" id="counter-visitor"></span>
+          </p>
+        </div>
+
+        <div class="container">
+          <a href="index.html" class="guifosLogo" id="guifosLogo">
+            <img src="/images/gifOF_logo.png" id="logoGifos" alt="Logo Gifos"/>
+          </a>
+
+          <div class="btn-group">
+            <div class="make-gif">
+              <a href="/pages/create-gif.html">Crear Guifos</a>
+            </div>
+
+            <div class="dropdown" id="dropdown">
+              <ul class="dropdown-list" id="dropdown-list">
+                <li class="sd" id="sd"><span>S</span>ailor Day</li>
+                <li class="sn" id="sn"><span>S</span>ailor Night</li>
+              </ul>
+
+              <div class="btn-theme">Elegir tema</div>
+              <div class="square">
+                <img
+                  class="arrow"
+                  id="arrow"
+                  src="/images/dropdown.svg"
+                  alt="Dropdown"
+                />
+              </div>
+            </div>
+
+            <a href="/pages/guifos.html" class="mycollection" id="mycollection" ><p><span>M</span>is Guifos</p></a>
+          </div>
+        </div>
+      </header>
+
+      <div class="searchbar" id="searchbar">
+        <div class="searchbar-title">Buscar</div>
+
+        <div class="searchbar-container">
+          <input
+            type="text"
+            name="searchbar-input"
+            id="searchbar-input"
+            placeholder=" Busca gifs, hashtags, temas, busca lo que quieras…"
+          />
+
+          <div class="searchbar-btn" id="searchbar-btn">
+            <img id="loupeImg" alt="Lupa" src="#" />Buscar
+          </div>
+
+          <div class="searchbar-dropdown" id="searchbar-dropdown">
+            <ul class="searchbar-list" id="searchbar-list">
+              <li class="li-item" id="autocomplete"></li>
+              <li class="li-item" id="autocomplete1"></li>
+              <li class="li-item" id="autocomplete2"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="search-result" id="search-result">
+          <button class="btn-result" id="btn-result-1"></button>
+          <button class="btn-result" id="btn-result-2"></button>
+          <button class="btn-result" id="btn-result-3"></button>
+        </div>
+      </div>
+
+      <div class="title" id="suggestions-title">
+        <h2>Hoy te sugerimos:</h2>
+      </div>
+
+      <section class="suggestions" id="suggestions"></section>
+
+      <div class="title" id="title">
+        <h2 id="trends-title">Tendencias:</h2>
+      </div>
+
+      <section class="trends" id="trends"></section>
+
+      <script src="/script/main.js"></script>
+    </div>
+  </body>
+</html>
