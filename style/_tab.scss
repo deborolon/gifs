@@ -1,0 +1,426 @@
+body {
+    div {
+      header {
+        width: 100%;
+        height: 141px;
+  
+        .top {
+          @include top;
+        }
+  
+        .container {
+          width: 100%;
+          height: 115px;
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          align-content: center;
+  
+          .guifosLogo {
+            z-index: 999;
+            img {
+              width: 102.6px;
+              height: 64px;
+              padding: 35px 0px 16px 91px;
+              align-self: center;
+  
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+  
+          .btn-group {
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: flex-end;
+            align-content: center;
+  
+            .make-gif {
+              @include button;
+              width: 144px;
+              margin: 44px 0px 35px 0px;
+  
+              &:hover {
+                cursor: pointer;
+                outline-offset: -5px;
+              }
+  
+              &:active {
+                cursor: pointer;
+                outline-offset: -5px;
+              }
+  
+              a {
+                text-decoration: none;
+              }
+            }
+  
+            .dropdown {
+              margin: 44px 0px 35px 16px;
+              display: flex;
+              width: 167px;
+              height: 138px;
+              box-sizing: border-box;
+              max-height: 0;
+  
+              .dropdown-list {
+                width: 0px;
+                height: 0px;
+                visibility: hidden;
+  
+                li {
+                  list-style-type: none;
+                  font-size: 16px;
+                  width: 150px;
+                  height: 36px;
+                  padding: 7px 0px 7px 16px;
+                  box-sizing: border-box;
+                  margin: 10px;
+  
+                  &:hover {
+                    cursor: pointer;
+                  }
+                }
+  
+                .sd {
+                  margin-top: 46px;
+  
+                  span {
+                    text-decoration: underline;
+                  }
+                }
+              }
+  
+              .btn-theme {
+                width: 131px;
+                @include button;
+  
+                &:hover {
+                  cursor: pointer;
+                  outline-offset: -5px;
+                }
+  
+                &:active {
+                  cursor: pointer;
+                  outline-offset: -5px;
+                }
+              }
+  
+              .square {
+                box-sizing: border-box;
+                width: 36px;
+                height: 36px;
+  
+                img {
+                  width: 10px;
+                  height: 6px;
+                  padding: 15px 11px 15px 11px;
+                }
+  
+                &:hover {
+                  cursor: pointer;
+                  outline-offset: -5px;
+                }
+  
+                &:active {
+                  cursor: pointer;
+                  outline-offset: -5px;
+                }
+              }
+            }
+  
+            .mycollection {
+              text-decoration: none;
+  
+              p {
+                margin: 43px 140.5px 34px 16.5px;
+                width: 76px;
+                height: 18px;
+                padding: 10px 10px 10px 4px;
+  
+                &:hover {
+                  cursor: pointer;
+                  outline-offset: -5px;
+                }
+  
+                &:active {
+                  cursor: pointer;
+                }
+  
+                span {
+                  width: 8px;
+                  height: 2px;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+  
+      .searchbar {
+        width: 1200px;
+        height: 99px;
+        margin: 16px auto 64px auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+  
+        .searchbar-title {
+          width: 1194px;
+          height: 24px;
+          font-weight: 700;
+          box-sizing: border-box;
+          margin: 3px;
+          display: flex;
+          align-items: center;
+          padding-left: 3px;
+        }
+  
+        .searchbar-container {
+          display: flex;
+          box-sizing: border-box;
+  
+          input {
+            width: 1057px;
+            height: 48px;
+            margin: 12px 8px 12px 15px;
+            box-sizing: border-box;
+          }
+  
+          .searchbar-btn {
+            @include button;
+            width: 102px;
+            justify-content: space-around;
+            margin: 18px 18px 18px 8px;
+  
+            &:hover {
+              cursor: pointer;
+            }
+  
+            &:active {
+              cursor: pointer;
+              outline-offset: -5px;
+              text-align: right;
+              box-sizing: border-box;
+            }
+          }
+  
+          .searchbar-btn-active {
+            @include button;
+            width: 102px;
+            justify-content: space-around;
+            margin: 18px 18px 18px 8px;
+  
+            &:hover {
+              cursor: pointer;
+            }
+  
+            &:active {
+              cursor: pointer;
+              outline-offset: -5px;
+              text-align: right;
+              box-sizing: border-box;
+            }
+          }
+  
+          .searchbar-dropdown {
+            width: 1200px;
+            height: 160px;
+            z-index: 1;
+            display: flex;
+            box-sizing: border-box;
+            position: absolute;
+            margin-top: 71px;
+            max-height: 0;
+  
+            ul {
+              margin: 6px 0px 16px 15px;
+              box-sizing: border-box;
+              visibility: hidden;
+  
+              li {
+                width: 1057px;
+                height: 36px;
+                list-style-type: none;
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                padding-left: 16px;
+                box-sizing: border-box;
+  
+                &:hover {
+                  cursor: pointer;
+                  outline-offset: -5px;
+                }
+              }
+            }
+          }
+        }
+  
+        .search-result {
+          display: none;
+          .btn-result {
+            @include button;
+            min-width: 90px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 12px 8px 0px 0px;
+            color: $white;
+            font-size: 14px;
+          }
+        }
+      }
+  
+      .title {
+        @include sectionTitle;
+        margin: 16px auto 16px auto;
+      }
+  
+      .suggestions {
+        width: 1200px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+  
+        .suggestions-container {
+          width: 288px;
+          height: 313px;
+          box-sizing: border-box;
+          position: relative;
+  
+          .hashtag-s {
+            width: 280px;
+            height: 24px;
+            box-sizing: border-box;
+            margin: 2px auto 2px auto;
+  
+            .closeImg {
+              width: 16px;
+              height: 14px;
+              position: absolute;
+              right: 0;
+              margin: 5px 8px 5px 0px;
+            }
+  
+            p {
+              box-sizing: border-box;
+              font-weight: 700;
+              font-size: 14px;
+              padding: 3px;
+            }
+          }
+  
+          .imgGif {
+            width: 280px;
+            height: 280px;
+            box-sizing: border-box;
+            margin: 1px 4px 2px 4px;
+          }
+  
+          .btn-more {
+            width: 81px;
+            height: 34px;
+            position: absolute;
+            box-sizing: border-box;
+            bottom: 0;
+            margin: 0px 0px 15px 7px;
+  
+            &::after {
+              content: "Ver más...";
+            }
+          }
+        }
+      }
+  
+      .trends {
+        width: 1200px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+        gap: 8px;
+        box-sizing: border-box;
+        margin: auto;
+  
+        .gif-container {
+          width: 294px;
+          height: 304px;
+          box-sizing: border-box;
+          position: relative;
+  
+          &:nth-child(10n + 0) {
+            width: 598px;
+            height: 304px;
+            grid-column: 3/5;
+          
+            img {
+              width: 592px;
+              height: 298px;
+            }
+          
+            .hashtag {
+              width: 590px;
+              height: 24px;
+              box-sizing: border-box;
+            }
+          }
+          
+          &:nth-child(10n + 5) {
+            width: 598px;
+            height: 304px;
+            grid-column: 1/3;
+          
+            img {
+              width: 592px;
+              height: 298px;
+            }
+          
+            .hashtag {
+              width: 590px;
+              height: 24px;
+              box-sizing: border-box;
+            }
+          }
+  
+          img {
+            width: 288px;
+            height: 298px;
+            margin: 3px;
+            box-sizing: border-box;
+          }
+  
+          .hashtag {
+            width: 286px;
+            height: 24px;
+            position: absolute;
+            box-sizing: border-box;
+            bottom: 0px;
+            margin: 0px 0px 4px 4px;
+  
+            p {
+              box-sizing: border-box;
+              font-weight: 700;
+              font-size: 14px;
+              padding: 3px;
+              color: transparent;
+              display: block;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+  
+              a:hover {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

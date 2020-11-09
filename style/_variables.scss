@@ -1,0 +1,54 @@
+//Fonts
+$primary-font: 'Chakra Petch', sans-serif;
+
+//Basic
+$white: #FFFFFF;
+$black: #000000;
+
+//Sailor Day
+$sailor-day: #FFFAFE;
+$sd-btn: #F7C9F3;
+$sd-btn-active: #E6BBE2;
+$sd-btn-blue: #4180F6;
+$sd-btn-blue-active: #3A72DB;
+$sd-btn-blue-inside: #4C2F99;
+$sd-btn-secondary: #FFF4FD;
+$sd-btn-secondary-active: #F0E5EE;
+$sd-shadowborder-sailor: #CCA6C9;
+$sd-shadowborder-night: #808080;
+$sd-active: #F0F0F0;
+$sd-inactive: #B4B4B4;
+$sd-window: #E6E6E6;
+$sd-border-input: #979797;
+$sd-progressbar-description: #6c6184;
+$sd-gradient: linear-gradient(270deg, $sd-btn 0%, $sd-btn-blue 100%);
+$sd-shadowborder-btn: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 $white;
+$sd-shadowborder-window: inset -2px -2px 0 0 $sd-inactive, inset 2px 2px 0 0 $white;
+$sd-shadowborder-minus: inset -1px -1px 0 0 $sd-inactive, inset 1px 1px 0 0 $white;
+$sd-shadowborder-input: inset -2px -2px 0 0 $sd-window, inset 2px 2px 0 0 $black;
+$sd-shadowborder-section: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+$sd-shadowborder-btn-more: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 $white;
+$sd-shadowborder-btn-secondary: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 $white;
+$progressbar: #999999;
+$capture-ok:#FF6161;
+$shadowborder-capture: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 $white;
+$shadowborder-progressbar: inset 2px 2px 0 0 $black, inset -2px -2px 0 0 #FFFCFC;
+
+//Sailor Night
+$sailor-night: #110038;
+$sn-btn: #EE3EFE;
+$sn-btn-searchbar: #8F8F8F;
+$sn-btn-active: #CE36DB;
+$sn-btn-blue: #2E32FB;
+$sn-btn-blue-active: #2629CC;
+$sn-btn-blue-outside: #33358F 20%;
+$sn-btn-options: #CCCCCC;
+$sn-gradient: linear-gradient(270deg, $sn-btn 0%, #2E32FB 100%);
+$sn-shadowborder-btn: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 $white;
+$sn-shadowborder-btn-search: inset -2px -2px 0 0 $sd-inactive, inset 2px 2px 0 0 $white;
+$sn-shadowborder-btn-search-minus: inset -1px -1px 0 0 $sd-inactive, inset 1px 1px 0 0 $white;
+$sn-shadowborder-window: inset -2px -2px 0 0 $sn-btn-searchbar, inset 2px 2px 0 0 $white;
+$sn-shadowborder-section: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 $sailor-night;
+$sn-shadowborder-gif: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 $white;
+$sn-shadowborder-btn-more: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 $white;
+$sn-shadowborder-btn-secondary: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 $sd-btn-secondary;

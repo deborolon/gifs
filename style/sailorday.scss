@@ -1,0 +1,453 @@
+@import "_variables.scss";
+
+.sailor-day {
+  background-color: $sd-btn-secondary;
+  font-family: $primary-font;
+
+  header {
+    .top {
+      background-image: $sd-gradient;
+      box-shadow: 0 1px 0 0 $sailor-night;
+
+      .counter {
+        color: $white;
+      }
+    }
+
+    .container {
+      .btn-group {
+        .make-gif {
+          background-color: $sd-btn;
+          color: $sailor-night;
+          box-shadow: $sd-shadowborder-btn;
+          border: 1px solid $sailor-night;
+
+          &:hover {
+            outline: 1px dotted $sailor-night;
+            background-color: $sd-btn-active;
+          }
+
+          &:active {
+            outline: 1px dotted $sailor-night;
+            background-color: $sd-btn-active;
+          }
+
+          a {
+            color: $sailor-night;
+          }
+        }
+
+        .dropdown {
+          background-color: $sd-window;
+          box-shadow: $sd-shadowborder-window;
+
+          .dropdown-list {
+            .sd {
+              background-color: $sd-btn-secondary;
+              border: 1px solid $sd-shadowborder-sailor;
+              box-shadow: $sd-shadowborder-btn-secondary;
+            }
+
+            .sn {
+              background-color: $sd-active;
+              border: 1px solid $sd-shadowborder-night;
+              box-shadow: $sd-shadowborder-minus;
+            }
+          }
+
+          .btn-theme {
+            background-color: $sd-btn;
+            color: $sailor-night;
+            box-shadow: $sd-shadowborder-btn;
+            border: 1px solid $sailor-night;
+
+            &:hover {
+              outline: 1px dotted $sailor-night;
+              background-color: $sd-btn-active;
+            }
+
+            &:active {
+              outline: 1px dotted $sailor-night;
+              background-color: $sd-btn-active;
+            }
+          }
+
+          .square {
+            background-color: $sd-btn;
+            box-shadow: $sd-shadowborder-btn;
+            border: 1px solid $sailor-night;
+
+            &:hover {
+              outline: 1px dotted $sailor-night;
+              background-color: $sd-btn-active;
+            }
+
+            &:active {
+              outline: 1px dotted $sailor-night;
+              background-color: $sd-btn-active;
+            }
+          }
+        }
+      }
+
+      .mycollection {
+        p {
+          color: $sailor-night;
+
+          &:hover {
+            outline: 1px dotted $sailor-night;
+          }
+
+          &:active {
+            color: #989a9c;
+          }
+        }
+      }
+    }
+  }
+
+  .outer-container {
+    .inner-container {
+      background-color: $sd-window;
+      box-shadow: $sd-shadowborder-window;
+
+      .banner {
+        background-image: $sd-gradient;
+        color: $white;
+      }
+
+      .description {
+        color: $sailor-night;
+
+        p {
+          span {
+            color: #00001a;
+          }
+        }
+
+        ol {
+          li {
+            span {
+              color: #00001a;
+            }
+          }
+        }
+      }
+
+      .btn-gifos {
+        button {
+          border: 1px solid $sailor-night;
+          box-shadow: $sd-shadowborder-btn;
+          color: $sailor-night;
+        }
+
+        .btn-cancel {
+          background-color: $sd-btn-secondary;
+
+          &:hover {
+            background-color: $sd-btn-secondary-active;
+            outline: 1px dotted $sailor-night;
+          }
+        }
+
+        .btn-start {
+          background-color: $sd-btn;
+
+          &:hover {
+            background-color: $sd-btn-active;
+            outline: 1px dotted $sailor-night;
+          }
+        }
+      }
+    }
+  }
+
+  .capture-gif {
+    background-color: $sd-window;
+    box-shadow: $sd-shadowborder-window;
+
+    .banner {
+      background-image: $sd-gradient;
+      color: $white;
+    }
+
+    .recording-camera {
+      border: 1px solid $sd-border-input;
+      box-shadow: $sd-shadowborder-input;
+
+      .progress-bar {
+        background-color: $sd-inactive;
+        box-shadow: $shadowborder-progressbar;
+
+        .loading {
+          background-color: $progressbar;
+        }
+      }
+
+      p {
+        color: $sd-progressbar-description;
+      }
+    }
+
+    .btn-section {
+      .clock {
+        border: 1px solid $sd-border-input;
+        box-shadow: $sd-shadowborder-input;
+        background-color: $white;
+        color: $sailor-night;
+      }
+
+      .forward {
+        background-color: $sd-btn;
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+      }
+
+      .progress-bar {
+        background-color: $sd-inactive;
+        box-shadow: $shadowborder-progressbar;
+
+        .loading {
+          background-color: $progressbar;
+        }
+      }
+
+      .camera {
+        background-color: $sd-btn;
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+      }
+
+      .capture {
+        background-color: $sd-btn;
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+        color: $sailor-night;
+      }
+
+      .recording {
+        background-color: $capture-ok;
+        border: 1px solid $sailor-night;
+        box-shadow: $shadowborder-capture;
+      }
+
+      .listo {
+        background-color: $capture-ok;
+        border: 1px solid $sailor-night;
+        box-shadow: $shadowborder-capture;
+        color: $white;
+      }
+
+      .repeat {
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+        background-color: $sd-btn-secondary;
+        color: $sailor-night;
+
+        &:hover {
+          background-color: $sd-btn-secondary-active;
+          outline: 1px dotted $sailor-night;
+        }
+      }
+
+      .upload {
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+        color: $sailor-night;
+        background-color: $sd-btn;
+
+        &:hover {
+          background-color: $sd-btn-active;
+          outline: 1px dotted $sailor-night;
+        }
+      }
+
+      .cancel {
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+        color: $sailor-night;
+
+        &:hover {
+          background-color: $sd-btn-secondary-active;
+          outline: 1px dotted $sailor-night;
+        }
+      }
+    }
+  }
+
+  .gif-done {
+    background-color: $sd-window;
+    box-shadow: $sd-shadowborder-window;
+
+    .banner {
+      background-image: $sd-gradient;
+      color: $white;
+    }
+
+    .guifo {
+      border: 1px solid $sd-border-input;
+      box-shadow: $sd-shadowborder-input;
+    }
+
+    .options {
+      h2 {
+        color: $sailor-night;
+      }
+
+      button {
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+        background-color: $sd-btn-secondary;
+        color: $sailor-night;
+      }
+    }
+
+    .finished {
+      border: 1px solid $sailor-night;
+      box-shadow: $sd-shadowborder-btn;
+      background-color: $sd-btn;
+    }
+  }
+
+  .searchbar {
+    background-color: $sd-window;
+    box-shadow: $sd-shadowborder-window;
+
+    .searchbar-title {
+      background-image: $sd-gradient;
+      color: $white;
+    }
+
+    .searchbar-container {
+      input {
+        box-shadow: $sd-shadowborder-input;
+        border: 1px solid $sd-border-input;
+        background-color: $white;
+      }
+
+      .searchbar-btn {
+        background-color: $sd-window;
+        border: 1px solid $sd-shadowborder-night;
+        box-shadow: $sd-shadowborder-minus;
+        color: $sd-inactive;
+
+        &:active {
+          background-color: $sd-btn-active;
+          border: 1px solid $sailor-night;
+          box-shadow: $sd-shadowborder-btn;
+          color: $sailor-night;
+          outline: 1px dotted $sailor-night;
+        }
+      }
+
+      .searchbar-btn-active {
+        background-color: $sd-btn;
+        border: 1px solid $sailor-night;
+        box-shadow: $sd-shadowborder-btn;
+        color: $sailor-night;
+
+        &:active {
+          background-color: $sd-btn-active;
+          border: 1px solid $sailor-night;
+          box-shadow: $sd-shadowborder-btn;
+          color: $sailor-night;
+          outline: 1px dotted $sailor-night;
+        }
+      }
+
+      .searchbar-dropdown {
+        background-color: $sd-window;
+        box-shadow: $sd-shadowborder-window;
+
+        ul {
+          li {
+            color: $sailor-night;
+            background-color: $sd-active;
+            box-shadow: $sd-shadowborder-minus;
+            border: 1px solid $sd-shadowborder-night;
+
+            &:hover {
+              outline: 1px dotted $sailor-night;
+              background-color: #dbdbdb;
+            }
+          }
+        }
+      }
+    }
+
+    .search-result {
+      .btn-result {
+        background-color: $sd-btn-blue;
+        border: 1px solid $sd-btn-blue-inside;
+        box-shadow: $sd-shadowborder-btn-more;
+      }
+    }
+  }
+
+  .title {
+    color: $sailor-night;
+    border: 1px solid $sd-btn-active;
+    box-shadow: $sd-shadowborder-section;
+    background-color: $sailor-day;
+  }
+
+  .suggestions {
+    .suggestions-container {
+      box-shadow: $sd-shadowborder-window;
+      background-color: $sd-window;
+
+      .hashtag-s {
+        background-image: $sd-gradient;
+
+        p {
+          color: $white;
+        }
+      }
+
+      &:hover {
+        .imgGif {
+          border: 1px dotted $sailor-night;
+        }
+
+        .btn-more {
+          border: 1px solid $sd-btn-blue-inside;
+          color: $white;
+          box-shadow: $sd-shadowborder-btn-more;
+          background-color: $sd-btn-blue-active;
+          outline-offset: -5px;
+          outline: 1px dotted $sailor-night;
+        }
+      }
+
+      .btn-more {
+        background-color: $sd-btn-blue;
+        border: 1px solid $sd-btn-blue-inside;
+        color: $white;
+        box-shadow: $sd-shadowborder-btn-more;
+      }
+    }
+  }
+
+  .trends {
+    .gif-container {
+      &:hover {
+        box-shadow: $sd-shadowborder-window;
+        background-color: $sd-window;
+
+        .hashtag {
+          background-image: $sd-gradient;
+
+          p {
+            color: $white;
+          }
+        }
+      }
+
+      img {
+        &:hover {
+          border: 1px dotted $sailor-night;
+        }
+      }
+    }
+  }
+}

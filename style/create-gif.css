@@ -1,0 +1,2597 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.sailor-day {
+  background-color: #FFF4FD;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.sailor-day header .top {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+}
+
+.sailor-day header .top .counter {
+  color: #FFFFFF;
+}
+
+.sailor-day header .container .btn-group .make-gif {
+  background-color: #F7C9F3;
+  color: #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #110038;
+}
+
+.sailor-day header .container .btn-group .make-gif:hover {
+  outline: 1px dotted #110038;
+  background-color: #E6BBE2;
+}
+
+.sailor-day header .container .btn-group .make-gif:active {
+  outline: 1px dotted #110038;
+  background-color: #E6BBE2;
+}
+
+.sailor-day header .container .btn-group .make-gif a {
+  color: #110038;
+}
+
+.sailor-day header .container .btn-group .dropdown {
+  background-color: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day header .container .btn-group .dropdown .dropdown-list .sd {
+  background-color: #FFF4FD;
+  border: 1px solid #CCA6C9;
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-day header .container .btn-group .dropdown .dropdown-list .sn {
+  background-color: #F0F0F0;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-day header .container .btn-group .dropdown .btn-theme {
+  background-color: #F7C9F3;
+  color: #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #110038;
+}
+
+.sailor-day header .container .btn-group .dropdown .btn-theme:hover {
+  outline: 1px dotted #110038;
+  background-color: #E6BBE2;
+}
+
+.sailor-day header .container .btn-group .dropdown .btn-theme:active {
+  outline: 1px dotted #110038;
+  background-color: #E6BBE2;
+}
+
+.sailor-day header .container .btn-group .dropdown .square {
+  background-color: #F7C9F3;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #110038;
+}
+
+.sailor-day header .container .btn-group .dropdown .square:hover {
+  outline: 1px dotted #110038;
+  background-color: #E6BBE2;
+}
+
+.sailor-day header .container .btn-group .dropdown .square:active {
+  outline: 1px dotted #110038;
+  background-color: #E6BBE2;
+}
+
+.sailor-day header .container .mycollection p {
+  color: #110038;
+}
+
+.sailor-day header .container .mycollection p:hover {
+  outline: 1px dotted #110038;
+}
+
+.sailor-day header .container .mycollection p:active {
+  color: #989a9c;
+}
+
+.sailor-day .outer-container .inner-container {
+  background-color: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day .outer-container .inner-container .banner {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+}
+
+.sailor-day .outer-container .inner-container .description {
+  color: #110038;
+}
+
+.sailor-day .outer-container .inner-container .description p span {
+  color: #00001a;
+}
+
+.sailor-day .outer-container .inner-container .description ol li span {
+  color: #00001a;
+}
+
+.sailor-day .outer-container .inner-container .btn-gifos button {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+.sailor-day .outer-container .inner-container .btn-gifos .btn-cancel {
+  background-color: #FFF4FD;
+}
+
+.sailor-day .outer-container .inner-container .btn-gifos .btn-cancel:hover {
+  background-color: #F0E5EE;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .outer-container .inner-container .btn-gifos .btn-start {
+  background-color: #F7C9F3;
+}
+
+.sailor-day .outer-container .inner-container .btn-gifos .btn-start:hover {
+  background-color: #E6BBE2;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .capture-gif {
+  background-color: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day .capture-gif .banner {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+}
+
+.sailor-day .capture-gif .recording-camera {
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.sailor-day .capture-gif .recording-camera .progress-bar {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+          box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+}
+
+.sailor-day .capture-gif .recording-camera .progress-bar .loading {
+  background-color: #999999;
+}
+
+.sailor-day .capture-gif .recording-camera p {
+  color: #6c6184;
+}
+
+.sailor-day .capture-gif .btn-section .clock {
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  background-color: #FFFFFF;
+  color: #110038;
+}
+
+.sailor-day .capture-gif .btn-section .forward {
+  background-color: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-day .capture-gif .btn-section .progress-bar {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+          box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+}
+
+.sailor-day .capture-gif .btn-section .progress-bar .loading {
+  background-color: #999999;
+}
+
+.sailor-day .capture-gif .btn-section .camera {
+  background-color: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-day .capture-gif .btn-section .capture {
+  background-color: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+.sailor-day .capture-gif .btn-section .recording {
+  background-color: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-day .capture-gif .btn-section .listo {
+  background-color: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.sailor-day .capture-gif .btn-section .repeat {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  background-color: #FFF4FD;
+  color: #110038;
+}
+
+.sailor-day .capture-gif .btn-section .repeat:hover {
+  background-color: #F0E5EE;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .capture-gif .btn-section .upload {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+  background-color: #F7C9F3;
+}
+
+.sailor-day .capture-gif .btn-section .upload:hover {
+  background-color: #E6BBE2;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .capture-gif .btn-section .cancel {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+.sailor-day .capture-gif .btn-section .cancel:hover {
+  background-color: #F0E5EE;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .gif-done {
+  background-color: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day .gif-done .banner {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+}
+
+.sailor-day .gif-done .guifo {
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.sailor-day .gif-done .options h2 {
+  color: #110038;
+}
+
+.sailor-day .gif-done .options button {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  background-color: #FFF4FD;
+  color: #110038;
+}
+
+.sailor-day .gif-done .finished {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  background-color: #F7C9F3;
+}
+
+.sailor-day .searchbar {
+  background-color: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day .searchbar .searchbar-title {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  color: #FFFFFF;
+}
+
+.sailor-day .searchbar .searchbar-container input {
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  border: 1px solid #979797;
+  background-color: #FFFFFF;
+}
+
+.sailor-day .searchbar .searchbar-container .searchbar-btn {
+  background-color: #E6E6E6;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  color: #B4B4B4;
+}
+
+.sailor-day .searchbar .searchbar-container .searchbar-btn:active {
+  background-color: #E6BBE2;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .searchbar .searchbar-container .searchbar-btn-active {
+  background-color: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+.sailor-day .searchbar .searchbar-container .searchbar-btn-active:active {
+  background-color: #E6BBE2;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .searchbar .searchbar-container .searchbar-dropdown {
+  background-color: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day .searchbar .searchbar-container .searchbar-dropdown ul li {
+  color: #110038;
+  background-color: #F0F0F0;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #808080;
+}
+
+.sailor-day .searchbar .searchbar-container .searchbar-dropdown ul li:hover {
+  outline: 1px dotted #110038;
+  background-color: #dbdbdb;
+}
+
+.sailor-day .searchbar .search-result .btn-result {
+  background-color: #4180F6;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day .title {
+  color: #110038;
+  border: 1px solid #E6BBE2;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  background-color: #FFFAFE;
+}
+
+.sailor-day .suggestions .suggestions-container {
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  background-color: #E6E6E6;
+}
+
+.sailor-day .suggestions .suggestions-container .hashtag-s {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.sailor-day .suggestions .suggestions-container .hashtag-s p {
+  color: #FFFFFF;
+}
+
+.sailor-day .suggestions .suggestions-container:hover .imgGif {
+  border: 1px dotted #110038;
+}
+
+.sailor-day .suggestions .suggestions-container:hover .btn-more {
+  border: 1px solid #4C2F99;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+  background-color: #3A72DB;
+  outline-offset: -5px;
+  outline: 1px dotted #110038;
+}
+
+.sailor-day .suggestions .suggestions-container .btn-more {
+  background-color: #4180F6;
+  border: 1px solid #4C2F99;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-day .trends .gif-container:hover {
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  background-color: #E6E6E6;
+}
+
+.sailor-day .trends .gif-container:hover .hashtag {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F7C9F3), to(#4180F6));
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.sailor-day .trends .gif-container:hover .hashtag p {
+  color: #FFFFFF;
+}
+
+.sailor-day .trends .gif-container img:hover {
+  border: 1px dotted #110038;
+}
+
+.sailor-night {
+  background-color: #110038;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.sailor-night header .top {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+}
+
+.sailor-night header .top .counter {
+  color: #FFFFFF;
+}
+
+.sailor-night header .container .btn-group .make-gif {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #110038;
+}
+
+.sailor-night header .container .btn-group .make-gif:hover {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+}
+
+.sailor-night header .container .btn-group .make-gif:active {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+}
+
+.sailor-night header .container .btn-group .make-gif a {
+  color: #FFFFFF;
+}
+
+.sailor-night header .container .btn-group .dropdown {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night header .container .btn-group .dropdown .dropdown-list .sd {
+  background-color: #CCCCCC;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+.sailor-night header .container .btn-group .dropdown .dropdown-list .sn {
+  background-color: #2E32FB;
+  border: 1px solid #33358F 20%;
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.sailor-night header .container .btn-group .dropdown .btn-theme {
+  background-color: #EE3EFE;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #110038;
+}
+
+.sailor-night header .container .btn-group .dropdown .btn-theme:hover {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+}
+
+.sailor-night header .container .btn-group .dropdown .btn-theme:active {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+}
+
+.sailor-night header .container .btn-group .dropdown .square {
+  background-color: #EE3EFE;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #110038;
+}
+
+.sailor-night header .container .btn-group .dropdown .square:hover {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+}
+
+.sailor-night header .container .btn-group .dropdown .square:active {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+}
+
+.sailor-night header .container .mycollection p {
+  color: #FFFFFF;
+}
+
+.sailor-night header .container .mycollection p:hover {
+  outline: 1px dotted #FFFFFF;
+}
+
+.sailor-night header .container .mycollection p:active {
+  color: #B4B4B4;
+}
+
+.sailor-night .outer-container .inner-container {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night .outer-container .inner-container .banner {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  color: #FFFFFF;
+}
+
+.sailor-night .outer-container .inner-container .description {
+  color: #110038;
+}
+
+.sailor-night .outer-container .inner-container .description p span {
+  color: #00001a;
+}
+
+.sailor-night .outer-container .inner-container .description ol li span {
+  color: #00001a;
+}
+
+.sailor-night .outer-container .inner-container .btn-gifos button {
+  color: #FFFFFF;
+}
+
+.sailor-night .outer-container .inner-container .btn-gifos .btn-cancel {
+  border: 1px solid #B4B4B4;
+  background-color: #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+          box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+}
+
+.sailor-night .outer-container .inner-container .btn-gifos .btn-cancel:hover {
+  outline: 1px dotted #FFFFFF;
+}
+
+.sailor-night .outer-container .inner-container .btn-gifos .btn-start {
+  border: 1px solid #110038;
+  background-color: #EE3EFE;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-night .outer-container .inner-container .btn-gifos .btn-start:hover {
+  background-color: #CE36DB;
+  outline: 1px dotted #110038;
+}
+
+.sailor-night .capture-gif {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night .capture-gif .banner {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  color: #FFFFFF;
+}
+
+.sailor-night .capture-gif .recording-camera {
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.sailor-night .capture-gif .recording-camera .progress-bar {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.sailor-night .capture-gif .recording-camera .progress-bar .loading {
+  background-color: #999999;
+}
+
+.sailor-night .capture-gif .recording-camera p {
+  color: #6c6184;
+}
+
+.sailor-night .capture-gif .btn-section .clock {
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  background-color: #FFFFFF;
+  color: #110038;
+}
+
+.sailor-night .capture-gif .btn-section .forward {
+  background-color: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-night .capture-gif .btn-section .progress-bar {
+  background-color: #B4B4B4;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.sailor-night .capture-gif .btn-section .progress-bar .loading {
+  background-color: #999999;
+}
+
+.sailor-night .capture-gif .btn-section .camera {
+  background-color: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-night .capture-gif .btn-section .capture {
+  background-color: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.sailor-night .capture-gif .btn-section .recording {
+  background-color: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-night .capture-gif .btn-section .listo {
+  background-color: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.sailor-night .capture-gif .btn-section .repeat {
+  border: 1px solid #B4B4B4;
+  -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+          box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+  background-color: #110038;
+  color: #FFFFFF;
+}
+
+.sailor-night .capture-gif .btn-section .repeat:hover {
+  outline: 1px dotted #FFFFFF;
+}
+
+.sailor-night .capture-gif .btn-section .upload {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+  background-color: #EE3EFE;
+}
+
+.sailor-night .capture-gif .btn-section .upload:hover {
+  background-color: #CE36DB;
+  outline: 1px dotted #110038;
+}
+
+.sailor-night .capture-gif .btn-section .cancel {
+  color: #FFFFFF;
+  border: 1px solid #B4B4B4;
+  background-color: #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+          box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+}
+
+.sailor-night .capture-gif .btn-section .cancel:hover {
+  outline: 1px dotted #FFFFFF;
+}
+
+.sailor-night .gif-done {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night .gif-done .banner {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  color: #FFFFFF;
+}
+
+.sailor-night .gif-done .guifo {
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.sailor-night .gif-done .options h2 {
+  color: #110038;
+}
+
+.sailor-night .gif-done .options button {
+  border: 1px solid #B4B4B4;
+  -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+          box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+  background-color: #110038;
+  color: #FFFFFF;
+}
+
+.sailor-night .gif-done .options button:hover {
+  outline: 1px dotted #FFFFFF;
+}
+
+.sailor-night .gif-done .finished {
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  background-color: #EE3EFE;
+  color: white;
+}
+
+.sailor-night .gif-done .finished:hover {
+  background-color: #CE36DB;
+  outline: 1px dotted #110038;
+}
+
+.sailor-night .searchbar {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night .searchbar .searchbar-title {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  color: #FFFFFF;
+}
+
+.sailor-night .searchbar .searchbar-container input {
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  border: 1px solid #979797;
+  background-color: #FFFFFF;
+}
+
+.sailor-night .searchbar .searchbar-container .searchbar-btn {
+  background-color: #B4B4B4;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  color: #8F8F8F;
+}
+
+.sailor-night .searchbar .searchbar-container .searchbar-btn:active {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+  border: 1px solid #110038;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-night .searchbar .searchbar-container .searchbar-btn-active {
+  background-color: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.sailor-night .searchbar .searchbar-container .searchbar-btn-active:active {
+  outline: 1px dotted #110038;
+  background-color: #CE36DB;
+  border: 1px solid #110038;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailor-night .searchbar .searchbar-container .searchbar-dropdown {
+  background-color: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night .searchbar .searchbar-container .searchbar-dropdown ul li {
+  color: #110038;
+  background-color: #CCCCCC;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  border: 1px solid #808080;
+}
+
+.sailor-night .searchbar .searchbar-container .searchbar-dropdown ul li:hover {
+  outline: 1px dotted #110038;
+  background-color: #CCCCCC;
+}
+
+.sailor-night .searchbar .search-result .btn-result {
+  background-color: #2E32FB;
+  border: 1px solid #2629CC;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night .title {
+  color: #110038;
+  background-color: #FFFAFE;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.sailor-night .suggestions .suggestions-container {
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+  background-color: #B4B4B4;
+}
+
+.sailor-night .suggestions .suggestions-container .hashtag-s {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.sailor-night .suggestions .suggestions-container .hashtag-s p {
+  color: #FFFFFF;
+}
+
+.sailor-night .suggestions .suggestions-container:hover .imgGif {
+  border: 1px dotted #110038;
+}
+
+.sailor-night .suggestions .suggestions-container:hover .btn-more {
+  border: 1px solid #2629CC;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+  background-color: #2E32FB;
+  outline-offset: -5px;
+  outline: 1px dotted #110038;
+}
+
+.sailor-night .suggestions .suggestions-container .btn-more {
+  background-color: #2E32FB;
+  border: 1px solid #4C2F99;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sailor-night .trends .gif-container:hover {
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+  background-color: #B4B4B4;
+}
+
+.sailor-night .trends .gif-container:hover .hashtag {
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.sailor-night .trends .gif-container:hover .hashtag p {
+  color: #FFFFFF;
+}
+
+.sailor-night .trends .gif-container img:hover {
+  border: 1px dotted #110038;
+}
+
+/* @media screen and (min-width: px) {
+} */
+@media screen and (max-width: 800px) {
+  body div header {
+    width: 100%;
+    height: 200px;
+  }
+  body div header .top {
+    width: 100%;
+    height: 23px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    font-size: 12px;
+    font-size: 7px;
+  }
+  body div header .container {
+    width: 100%;
+    height: 177px;
+    display: block;
+  }
+  body div header .container .back-index {
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body div header .container .back-index .arrow-index {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+  }
+  body div header .container .back-index .logo-gifos {
+    width: 102.6px;
+    height: 64px;
+    margin: 10px;
+  }
+  body div header .container .back-index:hover {
+    cursor: pointer;
+  }
+  body div header .container .btn-group {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body div header .container .btn-group .make-gif {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  body div header .container .btn-group .make-gif:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .make-gif:active {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .make-gif a {
+    text-decoration: none;
+  }
+  body div header .container .btn-group .dropdown {
+    z-index: 999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    height: 118px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-height: 0;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list li {
+    list-style-type: none;
+    min-width: 80px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 6px;
+    font-size: 12px;
+    padding: 6px 0px 3px 6px;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list li:hover {
+    cursor: pointer;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list .sd {
+    margin-top: 46px;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list .sd span {
+    text-decoration: underline;
+  }
+  body div header .container .btn-group .dropdown .btn-theme {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 76px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  body div header .container .btn-group .dropdown .btn-theme:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .dropdown .btn-theme:active {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .dropdown .square {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 24px;
+    height: 30px;
+  }
+  body div header .container .btn-group .dropdown .square img {
+    width: 10px;
+    height: 6px;
+    padding: 11px 6px 11px 6px;
+  }
+  body div header .container .btn-group .dropdown .square:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .dropdown .square:active {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .mycollection {
+    width: auto;
+    height: 18px;
+    text-decoration: none;
+  }
+  body div header .container .btn-group .mycollection p {
+    width: 76px;
+    height: 18px;
+    padding: 10px 10px 8px 4px;
+    font-size: 14px;
+  }
+  body div header .container .btn-group .mycollection p:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .mycollection p:active {
+    cursor: pointer;
+  }
+  body div header .container .btn-group .mycollection p span {
+    width: 8px;
+    height: 2px;
+    text-decoration: underline;
+  }
+  body div .outer-container .inner-container {
+    width: 100%;
+    height: 266px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    padding-top: 10px;
+  }
+  body div .outer-container .inner-container .banner {
+    width: 99%;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    margin: 3px;
+  }
+  body div .outer-container .inner-container .banner p {
+    font-weight: 700;
+    padding: 4px;
+  }
+  body div .outer-container .inner-container img {
+    width: 32px;
+    height: 32px;
+    padding: 30px 16px 0px 25px;
+  }
+  body div .outer-container .inner-container h2 {
+    width: 220px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    padding: 35px;
+  }
+  body div .outer-container .inner-container .description {
+    width: auto;
+    height: 190px;
+    margin: 17px auto 0px auto;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  body div .outer-container .inner-container .description p span {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  body div .outer-container .inner-container .description p .whitespace::after {
+    content: "\A";
+    white-space: pre-line;
+  }
+  body div .outer-container .inner-container .description ol li span {
+    font-weight: 700;
+  }
+  body div .outer-container .inner-container .btn-gifos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 4px;
+  }
+  body div .outer-container .inner-container .btn-gifos button {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 104px;
+    height: 28px;
+    margin: 2px;
+  }
+  body div .outer-container .inner-container .btn-gifos .btn-cancel:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .outer-container .inner-container .btn-gifos .btn-start:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .capture-gif {
+    width: 100%;
+    height: 448px;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 20px auto 20px auto;
+  }
+  body div .capture-gif .banner {
+    width: 99%;
+    height: 24px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    margin: 3px;
+  }
+  body div .capture-gif .banner p {
+    font-weight: 700;
+    padding: 4px;
+  }
+  body div .capture-gif .banner img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px 10px 5px 0px;
+  }
+  body div .capture-gif .recording-camera {
+    width: 100%;
+    height: 334px;
+    margin: 35px auto 11px auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body div .capture-gif .recording-camera .video-preview video {
+    width: 99%;
+    height: 330px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 1px;
+  }
+  body div .capture-gif .recording-camera .video-preview .preview {
+    width: 99%;
+    height: 330px;
+    display: none;
+  }
+  body div .capture-gif .recording-camera .progressbar-container {
+    width: 100%;
+    height: 332px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #FFFFFF;
+  }
+  body div .capture-gif .recording-camera .progressbar-container img {
+    width: 38px;
+    height: 48px;
+  }
+  body div .capture-gif .recording-camera .progressbar-container h3 {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px;
+  }
+  body div .capture-gif .recording-camera .progressbar-container .progress-bar {
+    width: 99%;
+    height: 24px;
+    margin-top: 39px;
+    padding: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body div .capture-gif .recording-camera .progressbar-container .progress-bar .loading {
+    width: 100%;
+    height: 20px;
+    padding: 1px;
+    margin: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: 0.5 linear;
+    transition: 0.5 linear;
+    -webkit-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-animation: progressBarAnimation 20s;
+            animation: progressBarAnimation 20s;
+  }
+  @-webkit-keyframes progressBarAnimation {
+    0% {
+      width: 5%;
+      background-color: #f7c9f3;
+    }
+    100% {
+      width: 100%;
+      background-color: #f7c9f3;
+    }
+  }
+  @keyframes progressBarAnimation {
+    0% {
+      width: 5%;
+      background-color: #f7c9f3;
+    }
+    100% {
+      width: 100%;
+      background-color: #f7c9f3;
+    }
+  }
+  body div .capture-gif .recording-camera .progressbar-container p {
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  body div .capture-gif .recording-camera .progressbar-container p span {
+    text-decoration: line-through;
+  }
+  body div .capture-gif .btn-section {
+    height: 73px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body div .capture-gif .btn-section .clock {
+    width: 104px;
+    height: 34px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: none;
+    margin: 4px;
+    padding: 8px 0px 8px 6px;
+  }
+  body div .capture-gif .btn-section .forward {
+    width: 20px;
+    height: 20px;
+    display: none;
+    margin: 1;
+  }
+  body div .capture-gif .btn-section .forward img {
+    margin: 5px 8px 5px 8px;
+  }
+  body div .capture-gif .btn-section .progress-bar {
+    width: 60px;
+    height: 24px;
+    padding: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: none;
+    margin: 1px;
+  }
+  body div .capture-gif .btn-section .progress-bar .loading {
+    width: 100%;
+    height: 20px;
+    padding: 1px;
+    margin: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: 0.5 linear;
+    transition: 0.5 linear;
+    -webkit-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-animation: progressBarAnimation 8s;
+            animation: progressBarAnimation 8s;
+  }
+  @keyframes progressBarAnimation {
+    0% {
+      width: 5%;
+      background-color: #f7c9f3;
+    }
+    100% {
+      width: 100%;
+      background-color: #f7c9f3;
+    }
+  }
+  body div .capture-gif .btn-section .camera {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 36px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .capture {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 104px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .recording {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 36px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .listo {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 104px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .repeat {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: auto;
+    display: none;
+    margin: 2px;
+    font-size: 10px;
+  }
+  body div .capture-gif .btn-section .repeat:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .capture-gif .btn-section .upload {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: auto;
+    display: none;
+    margin: 2px;
+    font-size: 10px;
+  }
+  body div .capture-gif .btn-section .upload:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .capture-gif .btn-section .cancel {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 104px;
+    margin: 8px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .cancel:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .gif-done {
+    width: 100%;
+    height: 391px;
+    display: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    padding-top: 30px;
+  }
+  body div .gif-done .banner {
+    width: 99%;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    margin: 3px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  body div .gif-done .banner p {
+    font-weight: 700;
+    padding: 4px;
+  }
+  body div .gif-done .banner img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+  }
+  body div .gif-done .guifo {
+    width: auto;
+    height: 146px;
+    margin: 27px 24px 0px 24px;
+  }
+  body div .gif-done .options {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body div .gif-done .options h2 {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  body div .gif-done .options button {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 128px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 14px;
+  }
+  body div .gif-done .options button:hover {
+    outline-offset: -5px;
+  }
+  body div .gif-done .options .linkGif {
+    display: none;
+  }
+  body div .gif-done .finished {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80px;
+    box-sizing: border-box;
+    margin: 10px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  body div .gif-done .finished:hover {
+    outline-offset: -5px;
+  }
+  body div .title {
+    max-width: 1200px;
+    height: 32px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 40px auto 10px auto;
+    width: auto;
+  }
+  body div .title h2 {
+    padding: 7px;
+  }
+  body div .title p {
+    padding: 6px;
+  }
+  body div .collection {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(296px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
+    gap: 10px;
+  }
+  body div .collection .gif-container {
+    width: 294px;
+    height: 304px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    margin: auto;
+  }
+  body div .collection .gif-container img {
+    width: 288px;
+    height: 298px;
+    margin: 3px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body div .collection .gif-container .hashtag {
+    width: 286px;
+    height: 24px;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    bottom: 0px;
+    margin: 0px 0px 4px 4px;
+  }
+  body div .collection .gif-container .hashtag p {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 3px;
+    color: transparent;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  body div .collection .gif-container .hashtag p a:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  body div header .top {
+    width: 100%;
+    height: 23px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    font-size: 12px;
+  }
+  body div header .container {
+    width: 100%;
+    height: 115px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  body div header .container .back-index {
+    z-index: 999;
+  }
+  body div header .container .back-index .logo-gifos {
+    width: 102.6px;
+    height: 64px;
+    padding: 35px 0px 16px 91px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  body div header .container .back-index .arrow-index {
+    position: absolute;
+    padding: 55px 7px 0px 60px;
+    width: 24px;
+    height: 24px;
+  }
+  body div header .container .back-index:hover {
+    cursor: pointer;
+  }
+  body div header .container .btn-group {
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  body div header .container .btn-group .make-gif {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    margin: 44px 0px 35px 0px;
+  }
+  body div header .container .btn-group .make-gif:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .make-gif:active {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .make-gif a {
+    text-decoration: none;
+  }
+  body div header .container .btn-group .dropdown {
+    margin: 44px 0px 35px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 167px;
+    height: 138px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-height: 0;
+    z-index: 999;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list li {
+    list-style-type: none;
+    font-size: 16px;
+    width: 150px;
+    height: 36px;
+    padding: 7px 0px 7px 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 10px;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list li:hover {
+    cursor: pointer;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list .sd {
+    margin-top: 46px;
+  }
+  body div header .container .btn-group .dropdown .dropdown-list .sd span {
+    text-decoration: underline;
+  }
+  body div header .container .btn-group .dropdown .btn-theme {
+    width: 131px;
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body div header .container .btn-group .dropdown .btn-theme:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .dropdown .btn-theme:active {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .dropdown .square {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+  }
+  body div header .container .btn-group .dropdown .square img {
+    width: 10px;
+    height: 6px;
+    padding: 15px 11px 15px 11px;
+  }
+  body div header .container .btn-group .dropdown .square:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .dropdown .square:active {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .mycollection {
+    text-decoration: none;
+  }
+  body div header .container .btn-group .mycollection p {
+    width: 76px;
+    height: 18px;
+    padding: 10px 10px 10px 4px;
+    margin: 43px 140.5px 34px 16.5px;
+  }
+  body div header .container .btn-group .mycollection p:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div header .container .btn-group .mycollection p:active {
+    cursor: pointer;
+  }
+  body div header .container .btn-group .mycollection p span {
+    width: 8px;
+    height: 2px;
+    text-decoration: underline;
+  }
+  body div .outer-container .inner-container {
+    width: 684px;
+    height: 386px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    padding-top: 30px;
+  }
+  body div .outer-container .inner-container .banner {
+    width: 678px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    margin: 3px;
+  }
+  body div .outer-container .inner-container .banner p {
+    font-weight: 700;
+    padding: 4px;
+  }
+  body div .outer-container .inner-container img {
+    width: 32px;
+    height: 32px;
+    padding: 30px 16px 0px 25px;
+  }
+  body div .outer-container .inner-container h2 {
+    width: 280px;
+    height: 22px;
+    font-weight: 700;
+    position: absolute;
+    padding: 30px 0px 0px 73px;
+  }
+  body div .outer-container .inner-container .description {
+    width: 518px;
+    height: 190px;
+    margin: 17px auto 0px auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  body div .outer-container .inner-container .description p span {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  body div .outer-container .inner-container .description ol li span {
+    font-weight: 700;
+  }
+  body div .outer-container .inner-container .btn-gifos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 30px;
+  }
+  body div .outer-container .inner-container .btn-gifos button {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    margin: 8px;
+  }
+  body div .outer-container .inner-container .btn-gifos .btn-cancel:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .outer-container .inner-container .btn-gifos .btn-start:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .capture-gif {
+    width: 860px;
+    height: 548px;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 20px auto 20px auto;
+  }
+  body div .capture-gif .banner {
+    width: 854px;
+    height: 24px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    margin: 3px;
+  }
+  body div .capture-gif .banner p {
+    font-weight: 700;
+    padding: 4px;
+  }
+  body div .capture-gif .banner img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px 10px 5px 0px;
+  }
+  body div .capture-gif .recording-camera {
+    width: 832px;
+    height: 434px;
+    margin: 35px auto 11px auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body div .capture-gif .recording-camera .video-preview video {
+    width: 828px;
+    height: 430px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 1px;
+  }
+  body div .capture-gif .recording-camera .video-preview .preview {
+    width: 828px;
+    height: 430px;
+    display: none;
+  }
+  body div .capture-gif .recording-camera .progressbar-container {
+    width: 830px;
+    height: 432px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #FFFFFF;
+  }
+  body div .capture-gif .recording-camera .progressbar-container img {
+    width: 38px;
+    height: 48px;
+  }
+  body div .capture-gif .recording-camera .progressbar-container h3 {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+  }
+  body div .capture-gif .recording-camera .progressbar-container .progress-bar {
+    width: 324px;
+    height: 24px;
+    margin-top: 39px;
+    padding: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body div .capture-gif .recording-camera .progressbar-container .progress-bar .loading {
+    width: 100%;
+    height: 20px;
+    padding: 1px;
+    margin: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: 0.5 linear;
+    transition: 0.5 linear;
+    -webkit-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-animation: progressBarAnimation 20s;
+            animation: progressBarAnimation 20s;
+  }
+  @-webkit-keyframes progressBarAnimation {
+    0% {
+      width: 5%;
+      background-color: #f7c9f3;
+    }
+    100% {
+      width: 100%;
+      background-color: #f7c9f3;
+    }
+  }
+  @keyframes progressBarAnimation {
+    0% {
+      width: 5%;
+      background-color: #f7c9f3;
+    }
+    100% {
+      width: 100%;
+      background-color: #f7c9f3;
+    }
+  }
+  body div .capture-gif .recording-camera .progressbar-container p {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  body div .capture-gif .recording-camera .progressbar-container p span {
+    text-decoration: line-through;
+  }
+  body div .capture-gif .btn-section {
+    height: 73px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body div .capture-gif .btn-section .clock {
+    width: 124px;
+    height: 34px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 11px;
+    margin-left: 4px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .forward {
+    width: 20px;
+    height: 20px;
+    margin-left: 24px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .forward img {
+    margin: 5px 8px 5px 8px;
+  }
+  body div .capture-gif .btn-section .progress-bar {
+    width: 240px;
+    height: 24px;
+    padding: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 6px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .progress-bar .loading {
+    width: 100%;
+    height: 20px;
+    padding: 1px;
+    margin: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: 0.5 linear;
+    transition: 0.5 linear;
+    -webkit-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-animation: progressBarAnimation 8s;
+            animation: progressBarAnimation 8s;
+  }
+  @keyframes progressBarAnimation {
+    0% {
+      width: 5%;
+      background-color: #f7c9f3;
+    }
+    100% {
+      width: 100%;
+      background-color: #f7c9f3;
+    }
+  }
+  body div .capture-gif .btn-section .camera {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 36px;
+    margin-left: 663px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .capture {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .recording {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 36px;
+    margin-left: 528px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .listo {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .repeat {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    margin-left: 119px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .repeat:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .capture-gif .btn-section .upload {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    border-radius: 0;
+    margin-left: 14px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .upload:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .capture-gif .btn-section .cancel {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    margin: 8px;
+    border-radius: 0;
+    margin-left: 690px;
+    display: none;
+  }
+  body div .capture-gif .btn-section .cancel:hover {
+    cursor: pointer;
+    outline-offset: -5px;
+  }
+  body div .gif-done {
+    width: 721px;
+    height: 391px;
+    display: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    padding-top: 30px;
+  }
+  body div .gif-done .banner {
+    width: 715px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    margin: 3px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  body div .gif-done .banner p {
+    font-weight: 700;
+    padding: 4px;
+  }
+  body div .gif-done .banner img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+  }
+  body div .gif-done .guifo {
+    width: 371px;
+    height: 196px;
+    margin: 27px 24px 0px 24px;
+  }
+  body div .gif-done .options {
+    margin-top: 49px;
+    display: block;
+  }
+  body div .gif-done .options h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  body div .gif-done .options button {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 256px;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 14px;
+  }
+  body div .gif-done .options button:hover {
+    outline-offset: -5px;
+  }
+  body div .gif-done .options .linkGif {
+    display: none;
+  }
+  body div .gif-done .finished {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 144px;
+    box-sizing: border-box;
+    margin: 0px 46px 44px 531px;
+  }
+  body div .gif-done .finished:hover {
+    outline-offset: -5px;
+  }
+  body div .title {
+    max-width: 1200px;
+    height: 32px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 16px auto 16px auto;
+  }
+  body div .title h2 {
+    padding: 7px;
+  }
+  body div .title p {
+    padding: 6px;
+  }
+  body div section {
+    max-width: 1200px;
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin: auto;
+  }
+  body div section .gif-container {
+    width: 294px;
+    height: 304px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+  }
+  body div section .gif-container:nth-child(10n + 0) {
+    width: 598px;
+    height: 304px;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+  }
+  body div section .gif-container:nth-child(10n + 0) img {
+    width: 592px;
+    height: 298px;
+  }
+  body div section .gif-container:nth-child(10n + 0) .hashtag {
+    width: 590px;
+    height: 24px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body div section .gif-container:nth-child(10n + 5) {
+    width: 598px;
+    height: 304px;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+  body div section .gif-container:nth-child(10n + 5) img {
+    width: 592px;
+    height: 298px;
+  }
+  body div section .gif-container:nth-child(10n + 5) .hashtag {
+    width: 590px;
+    height: 24px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body div section .gif-container img {
+    width: 288px;
+    height: 298px;
+    margin: 3px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+/*# sourceMappingURL=create-gif.css.map */

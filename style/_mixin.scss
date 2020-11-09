@@ -1,0 +1,42 @@
+@import "_variables.scss";
+
+@mixin top {
+  width: 100%;
+  height: 23px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 12px;
+}
+
+@mixin top2 {
+  width: 100%;
+  height: 23px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 7px;
+}
+
+@mixin button {
+  font-family: $primary-font;
+  box-sizing: border-box;
+  height: 36px;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin sectionTitle {
+  max-width: 1200px;
+  height: 32px;
+  box-sizing: border-box;
+
+  h2 {
+    padding: 7px;
+  }
+}
