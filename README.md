@@ -9,7 +9,7 @@ El diseño del sitio está realizado sin frameworks, siguiendo un modelo de refe
 
 En este proyecto se utilizaron los siguientes recursos y tecnologías:
 
-- Para la organización del proyecto: [Trello](https://trello.com/es)
+- Para la organización del proyecto: [Trello](https://trello.com/b/zZ2Wq7fM/gifos-proyect)
 
 - Para el maquetado: HTML, CSS/SASS
 
