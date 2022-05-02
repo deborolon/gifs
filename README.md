@@ -46,4 +46,4 @@ En este proyecto se utilizaron los siguientes recursos y tecnologías:
 
   
 
-Link a **Gifos**  [aquí](https://gif0s.000webhostapp.com/)!
+Link a **Gifos**  [aquí](https://gif000s.000webhostapp.com/)!
